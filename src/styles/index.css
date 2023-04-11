@@ -1,12 +1,36 @@
+.addContact {
+    background-color: #04a004;
+}
 
-/* 
+.container-modal {
+    display: flex;
+    justify-content: end;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.card {
+    display: flex;
+    flex-direction: row;
+}
 
-*/
+.image {
+    width: 190px;
+    border-radius: 90px;
+}
+
+.back {
+    text-decoration: underline blue;
+    color: blue;
+}
+
+.modal-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.save-button {
+    width: 100%;
+}
+
+span {
+    margin-left: 10px;
+}
